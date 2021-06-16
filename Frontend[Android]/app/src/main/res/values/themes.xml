@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Dbms_app" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/text_input_box_stroke</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/bgdark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m" >true</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="snackbarTextViewStyle">@style/snackbar_text_day</item>
+    </style>
+
+    <style name="Cut"
+        parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="snackbar_text_day" parent="@style/Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

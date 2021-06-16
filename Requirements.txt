@@ -1,0 +1,9 @@
+flask
+pymongo
+numpy
+opencv-python
+tensorflow==2.1.2
+tk
+Pillow==2.2.2
+matplotlib
+
