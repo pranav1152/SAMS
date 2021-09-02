@@ -15,6 +15,12 @@ The Smart Attendance Management System first scans image of student through came
 <img src="https://github.com/pranav1152/SAMS/blob/main/Images/Flow_Diagram.jpg" height="400">
 </p>
 
+## DATABASE STRUCTURE
+
+<p align="center">
+<img src="https://github.com/pranav1152/SAMS/blob/main/Images/Database_structure.png" height="400">
+</p>
+
 ## MACHINE LEARNING MODEL DETAILS
 Face Recognition Model : [Click Here](https://drive.google.com/file/d/1dPwpf5bUtXVo-7EoECvme3nxRd18OfWr/view?usp=sharing) <br/>
 Training Model Notebook: [Click Here](https://www.kaggle.com/pranav918/face-model)
@@ -25,13 +31,3 @@ Training Model Notebook: [Click Here](https://www.kaggle.com/pranav918/face-mode
 <img src="https://github.com/pranav1152/SAMS/blob/main/Images/Login_Dark.jpg" height="270">
 <img src="https://github.com/pranav1152/SAMS/blob/main/Images/Attendence_Light.jpg" height="270">
 <img src="https://github.com/pranav1152/SAMS/blob/main/Images/Attendence_Dark.jpg" height="270"> &nbsp;
-
-## USER INSTRUCTIONS
-* Install Dependencies  
-    `pip install -r requirements.txt` 
-    
-* Run Local Server  
-    `python api.py`
-    
-* Run Desktop Client  
-    `python UI.py`
